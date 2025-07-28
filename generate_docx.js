@@ -57,6 +57,10 @@ const doc = new Document({
                         width: 165,
                         height: 70,
                       },
+                      altText: {
+                        name: "Deque Logo",
+                        description: "Deque Logo",
+                      },
                     })
                   : new TextRun("Image not found"),
               ],
@@ -143,8 +147,10 @@ const doc = new Document({
               alignment: "CENTER",
               size: 48,
               font: "Arial",
+              color: "auto",
             }),
           ],
+          heading: HeadingLevel.HEADING_1,
         }),
         new Paragraph({
           children: [
@@ -167,8 +173,10 @@ const doc = new Document({
               bold: true,
               size: 36,
               font: "Arial",
+              color: "auto",
             }),
           ],
+          heading: HeadingLevel.HEADING_2,
           spacing: {
             before: 300,
           },
@@ -192,8 +200,10 @@ const doc = new Document({
               bold: true,
               size: 36,
               font: "Arial",
+              color: "auto",
             }),
           ],
+          heading: HeadingLevel.HEADING_2,
           spacing: {
             before: 300,
           },
@@ -217,8 +227,10 @@ const doc = new Document({
               bold: true,
               size: 36,
               font: "Arial",
+              color: "auto",
             }),
           ],
+          heading: HeadingLevel.HEADING_2,
           spacing: {
             before: 300,
           },
@@ -242,8 +254,10 @@ const doc = new Document({
               bold: true,
               size: 36,
               font: "Arial",
+              color: "auto",
             }),
           ],
+          heading: HeadingLevel.HEADING_2,
           spacing: {
             before: 300,
           },
@@ -267,8 +281,10 @@ const doc = new Document({
               bold: true,
               size: 36,
               font: "Arial",
+              color: "auto",
             }),
           ],
+          heading: HeadingLevel.HEADING_2,
           spacing: {
             before: 300,
           },
@@ -412,8 +428,8 @@ const doc = new Document({
                         new TextRun({
                           text: "Page Title",
                           bold: true,
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "auto",
                         }),
                       ],
@@ -431,8 +447,8 @@ const doc = new Document({
                         new TextRun({
                           text: "URL",
                           bold: true,
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "auto",
                         }),
                       ],
@@ -453,8 +469,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "Login",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "auto",
                         }),
                       ],
@@ -467,8 +483,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "https://patient.health-ce.wolterskluwer.com/demo_login/login",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "0563C1",
                         }),
                       ],
@@ -485,8 +501,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "Search",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "auto",
                         }),
                       ],
@@ -499,8 +515,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "https://patient.health-ce.wolterskluwer.com/demo_team/search",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "0563C1",
                         }),
                       ],
@@ -517,8 +533,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "Search Results",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "auto",
                         }),
                       ],
@@ -531,8 +547,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "https://patient.health-ce.wolterskluwer.com/results/Top%20Surgery",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "0563C1",
                         }),
                       ],
@@ -549,8 +565,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "Top Surgery - Interactive Video",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "auto",
                         }),
                       ],
@@ -563,8 +579,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "https://patient.health-ce.wolterskluwer.com/multimedia/686679F8-2E8A-405C-A1B2-2C956A14267E/43688",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "0563C1",
                         }),
                       ],
@@ -581,8 +597,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "Heart Healthy Diet - Article",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "auto",
                         }),
                       ],
@@ -595,8 +611,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "https://patient.health-ce.wolterskluwer.com/article/686679F8-2E8A-405C-A1B2-2C956A14267E/44750",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "0563C1",
                         }),
                       ],
@@ -613,8 +629,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "Program List (With Search Disabled)",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "auto",
                         }),
                       ],
@@ -627,8 +643,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "https://patient.health-ce.wolterskluwer.com/demo_results/programs",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                           color: "0563C1",
                         }),
                       ],
@@ -955,7 +971,7 @@ const doc = new Document({
                           text: "Web Content Accessibility Guidelines 2.2",
                           style: "Hyperlink",
                           size: 22,
-                          font: "Calibri",
+                          font: "Arial",
                           color: "0000FF",
                           underline: {},
                           hyperlink: "https://www.w3.org/WAI/WCAG22/quickref/",
@@ -1308,8 +1324,8 @@ const doc = new Document({
                         new TextRun({
                           text: "Criteria",
                           bold: true,
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                         }),
                       ],
                       alignment: AlignmentType.CENTER,
@@ -1325,8 +1341,8 @@ const doc = new Document({
                         new TextRun({
                           text: "Conformance Level",
                           bold: true,
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                         }),
                       ],
                       alignment: AlignmentType.CENTER,
@@ -1342,8 +1358,8 @@ const doc = new Document({
                         new TextRun({
                           text: "Remarks and Explanations",
                           bold: true,
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                         }),
                       ],
                       alignment: AlignmentType.CENTER,
@@ -1364,8 +1380,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "1.1.1 Non-text Content",
-                          font: "Calibri",
-                          size: 24,
+                          font: "Arial",
+                          size: 22,
                           color: "0563C1",
                           underline: {},
                           hyperlink:
@@ -1373,8 +1389,8 @@ const doc = new Document({
                         }),
                         new TextRun({
                           text: " (Level A)",
-                          font: "Calibri",
-                          size: 24,
+                          font: "Arial",
+                          size: 22,
                         }),
                       ],
                     }),
@@ -1387,8 +1403,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "Partially Supports",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                         }),
                       ],
                     }),
@@ -1401,8 +1417,8 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "Most non-text content has text alternatives or a text alternate that serves an equivalent purpose. The following exception exists:",
-                          size: 24,
-                          font: "Calibri",
+                          size: 22,
+                          font: "Arial",
                         }),
                       ],
                     }),
@@ -1411,8 +1427,1012 @@ const doc = new Document({
                       children: [
                         new TextRun({
                           text: "A complex image does not have a long description to convey the information presented by the image, so people who are blind and/or use a screen reader will not be able to understand the information presented by the image. This occurs on the following page: Heart Healthy Diet - Article.",
+                          size: 22,
+                          font: "Arial",
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          ],
+        }),
+        new Paragraph({
+          children: [
+            new TextRun({
+              text: "Table 3: Success Criteria, Level AAA",
+              bold: true,
+              size: 32,
+              font: "Arial",
+              color: "auto",
+            }),
+          ],
+          heading: HeadingLevel.HEADING_3,
+          alignment: AlignmentType.LEFT,
+          spacing: {
+            before: 300,
+          },
+        }),
+        new Paragraph({
+          children: [
+            new TextRun({
+              text: "Notes: Not Applicable. The Universal Widgets Website was not assessed for WCAG 2.1 Level AAA conformance.",
+              size: 24,
+              font: "Arial",
+              color: "auto",
+            }),
+          ],
+          alignment: AlignmentType.LEFT,
+          spacing: {
+            before: 150,
+          },
+        }),
+      ],
+    },
+    {
+      properties: {
+        type: SectionType.NEXT_PAGE,
+        page: {
+          orientation: PageOrientation.LANDSCAPE,
+          size: { width: 16838, height: 11906 },
+          margin: {
+            top: 300,
+            right: 720,
+            bottom: 720,
+            left: 720,
+          },
+          headerDistance: 284,
+        },
+      },
+      headers: {
+        default: new Header({
+          children: [],
+        }),
+      },
+      footers: {
+        default: new Footer({
+          children: [
+            new Paragraph({
+              children: [
+                new TextRun({
+                  text: "Page ",
+                  size: 22,
+                  font: "Calibri",
+                }),
+                new TextRun({
+                  children: [PageNumber.CURRENT],
+                  size: 22,
+                  font: "Calibri",
+                }),
+                new TextRun({
+                  text: " of ",
+                  size: 22,
+                  font: "Calibri",
+                }),
+                new TextRun({
+                  children: [PageNumber.TOTAL_PAGES],
+                  size: 22,
+                  font: "Calibri",
+                }),
+              ],
+              alignment: AlignmentType.CENTER,
+              spacing: {
+                before: 100,
+              },
+            }),
+          ],
+        }),
+      },
+      children: [
+        new Paragraph({
+          children: [
+            new TextRun({
+              text: "EN 301 549 Report",
+              bold: true,
+              size: 36,
+              font: "Arial",
+              color: "auto",
+            }),
+          ],
+          heading: HeadingLevel.HEADING_2,
+          alignment: AlignmentType.LEFT,
+          spacing: {
+            before: 300,
+          },
+        }),
+        new Paragraph({
+          children: [
+            new TextRun({
+              text: "Notes:",
+              size: 24,
+              font: "Arial",
+              color: "auto",
+            }),
+          ],
+          alignment: AlignmentType.LEFT,
+          spacing: {
+            before: 150,
+          },
+        }),
+        new Paragraph({
+          children: [
+            new TextRun({
+              text: "Chapter 4: ",
+              bold: true,
+              size: 32,
+              font: "Arial",
+              color: "auto",
+            }),
+            new TextRun({
+              text: "Functional Performance Statements (FPS)",
+              style: "Hyperlink",
+              size: 32,
+              bold: true,
+              font: "Arial",
+              color: "0000FF",
+              underline: {},
+              hyperlink:
+                "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=20",
+            }),
+          ],
+          heading: HeadingLevel.HEADING_3,
+          alignment: AlignmentType.LEFT,
+          spacing: {
+            before: 250,
+          },
+        }),
+        new Paragraph({
+          children: [
+            new TextRun({
+              text: "Notes:",
+              size: 24,
+              font: "Arial",
+              color: "auto",
+            }),
+          ],
+          alignment: AlignmentType.LEFT,
+          spacing: {
+            before: 150,
+          },
+        }),
+        new Table({
+          alignment: AlignmentType.CENTER,
+          width: {
+            size: 100,
+            type: WidthType.PERCENTAGE,
+          },
+          rows: [
+            // Header Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  shading: { fill: "BFBFBF" },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Criteria",
+                          bold: true,
+                          font: "Arial",
                           size: 24,
-                          font: "Calibri",
+                        }),
+                      ],
+                      alignment: AlignmentType.CENTER,
+                    }),
+                  ],
+                }),
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  shading: { fill: "BFBFBF" },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Conformance Level",
+                          bold: true,
+                          font: "Arial",
+                          size: 24,
+                        }),
+                      ],
+                      alignment: AlignmentType.CENTER,
+                    }),
+                  ],
+                }),
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  shading: { fill: "BFBFBF" },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Remarks and Explanations",
+                          bold: true,
+                          font: "Arial",
+                          size: 24,
+                        }),
+                      ],
+                      alignment: AlignmentType.CENTER,
+                    }),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 1
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.1 Usage without vision",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Does Not Support",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Most, if not all, functionality is not usable without vision. Examples are noted in:",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    ...[
+                      "1.1.1 Non-Text Content",
+                      "1.3.1 Info and Relationships",
+                      "1.3.2 Meaningful Sequence",
+                      "1.3.3 Sensory Characteristics",
+                      "1.4.1 Use of Color",
+                      "2.1.1 Keyboard",
+                      "2.1.2 No Keyboard Trap",
+                      "2.4.2 Page Titled",
+                      "2.4.3 Focus Order",
+                      "2.4.4 Link Purpose (in context)",
+                      "2.4.6 Headings and Labels",
+                      "3.1.1 Language of Page",
+                      "3.3.1 Error Identification",
+                      "4.1.2 Name, Role, Value",
+                      "4.1.3 Status Messages",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 2
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.2 Usage with limited vision",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Does Not Support",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Most, if not all, functionality is not usable with limited vision. Examples are noted in: ",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    ...[
+                      "1.1.1 Non-Text Content",
+                      "1.3.1 Info and Relationships",
+                      "1.3.2 Meaningful Sequence",
+                      "1.3.3 Sensory Characteristics",
+                      "1.4.1 Use of Color",
+                      "1.4.3 Contrast (minimum)",
+                      "1.4.4 Resize Text",
+                      "1.4.10 Non-Text Contrast",
+                      "1.4.11 Non-Text Contrast",
+                      "1.4.12 Text Spacing",
+                      "2.1.1 Keyboard",
+                      "2.1.2 No Keyboard Trap",
+                      "2.4.2 Page Titled",
+                      "2.4.3 Focus Order",
+                      "2.4.4 Link Purpose (in context)",
+                      "2.4.6 Headings and Labels",
+                      "2.4.7 Focus Visible",
+                      "3.1.1 Language of Page",
+                      "3.3.1 Error Identification",
+                      "3.3.2 Labels or Instructions",
+                      "4.1.2 Name, Role, Value",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 3
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.3 Usage without perception of colour",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Does Not Support",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Most, if not all, functionality is not usable without perception of color. Examples are noted in: ",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    ...[
+                      "1.4.1 Use of Color",
+                      "1.4.3 Contrast (minimum)",
+                      "1.4.11 Non-Text Contrast",
+                      "3.3.1 Error Identification",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 4
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.4 Usage without hearing",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Partially Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Most functionality is usable without hearing. Exceptions are noted in:",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    ...[
+                      "1.1.1 Non-Text Content",
+                      "1.3.3 Sensory Characteristics",
+                      "3.1.1 Language of Page",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 5
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.5 Usage with limited hearing",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Partially Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Most functionality is usable with limited hearing. Exceptions are noted in:",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    ...[
+                      "1.1.1 Non-Text Content",
+                      "1.3.3 Sensory Characteristics",
+                      "3.1.1 Language of Page",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 6
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.6 Usage with no or limited vocal capability",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Not Applicable",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: The product does not require the use of speech or other vocal output.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 7
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.7 Usage with limited manipulation or strength",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Does Not Support",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Most, if not all, functionality is not usable by people with limited manipulation and/or requires manipulation, simultaneous action, or hand strength. Examples are noted in:",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    ...[
+                      "2.1.1 Keyboard",
+                      "2.1.2 No Keyboard Trap",
+                      "2.4.2 Page Titled",
+                      "2.4.3 Focus Order",
+                      "2.4.4 Link Purpose (in context)",
+                      "2.4.6 Headings and Labels",
+                      "2.4.7 Focus Visible",
+                      "2.5.3 Label in Name",
+                      "4.1.2 Name, Role, Value",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 8
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.8 Usage with limited reach",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: All functionality is usable by people with limited reach.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    ...[
+                      "2.5.3 Label in Name",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 9
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.9 Minimize photosensitive seizure triggers",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: All functionality may be operated in a mode that minimizes the potential for triggering photosensitive seizures.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 10
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.10 Usage with limited cognition, language or learning",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Partially Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Most functionality is usable by people with limited language, cognitive, and learning abilities. People with cognitive disabilities have varying needs for features that allow them to adapt content and work with assistive technology. Exceptions are noted in:",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    ...[
+                      "1.1.1 Non-Text Content",
+                      "1.3.1 Info and Relationships",
+                      "1.3.2 Meaningful Sequence",
+                      "1.3.3 Sensory Characteristics",
+                      "1.4.1 Use of Color",
+                      "1.4.10 Non-Text Contrast",
+                      "1.4.12 Text Spacing",
+                      "2.1.1 Keyboard",
+                      "2.4.2 Page Titled",
+                      "2.4.3 Focus Order",
+                      "2.4.4 Link Purpose (in context)",
+                      "2.4.6 Headings and Labels",
+                      "2.4.7 Focus Visible",
+                      "2.5.3 Label in Name",
+                      "3.1.1 Language of Page",
+                      "3.3.1 Error Identification",
+                      "3.3.2 Labels or Instructions",
+                      "4.1.2 Name, Role, Value",
+                      "4.1.3 Status Messages",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                }),
+              ],
+            }),
+
+            //Data Row 11
+            new TableRow({
+              children: [
+                // Criteria
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "4.2.11 Privacy",
+                          bold: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Conformance Level
+                new TableCell({
+                  width: { size: 20, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+
+                // Remarks and Explanations
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Where the product provides features for accessibility, it maintains the privacy of people who use these features at the same level as other users.",
+                          font: "Arial",
+                          size: 22,
                         }),
                       ],
                     }),
