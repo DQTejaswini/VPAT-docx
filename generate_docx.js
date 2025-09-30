@@ -2351,7 +2351,7 @@ const doc = new Document({
                     }),
                     new Paragraph({
                       children: [],
-                      spacing: { before: 100 }
+                      spacing: { before: 100 },
                     }),
                     new Paragraph({
                       bullet: { level: 0 },
@@ -2659,7 +2659,7 @@ const doc = new Document({
                     }),
                     new Paragraph({
                       children: [],
-                      spacing: { before: 100 }
+                      spacing: { before: 100 },
                     }),
                     ...[
                       "1.1.1 Non-Text Content",
@@ -2749,7 +2749,7 @@ const doc = new Document({
                     }),
                     new Paragraph({
                       children: [],
-                      spacing: { before: 100 }
+                      spacing: { before: 100 },
                     }),
                     ...[
                       "1.1.1 Non-Text Content",
@@ -2850,7 +2850,7 @@ const doc = new Document({
                     }),
                     new Paragraph({
                       children: [],
-                      spacing: { before: 100 }
+                      spacing: { before: 100 },
                     }),
                     ...[
                       "1.4.1 Use of Color",
@@ -2934,7 +2934,7 @@ const doc = new Document({
                     }),
                     new Paragraph({
                       children: [],
-                      spacing: { before: 100 }
+                      spacing: { before: 100 },
                     }),
                     ...[
                       "1.1.1 Non-Text Content",
@@ -3017,7 +3017,7 @@ const doc = new Document({
                     }),
                     new Paragraph({
                       children: [],
-                      spacing: { before: 100 }
+                      spacing: { before: 100 },
                     }),
                     ...[
                       "1.1.1 Non-Text Content",
@@ -3162,7 +3162,7 @@ const doc = new Document({
                     }),
                     new Paragraph({
                       children: [],
-                      spacing: { before: 100 }
+                      spacing: { before: 100 },
                     }),
                     ...[
                       "2.1.1 Keyboard",
@@ -3251,7 +3251,7 @@ const doc = new Document({
                     }),
                     new Paragraph({
                       children: [],
-                      spacing: { before: 100 }
+                      spacing: { before: 100 },
                     }),
                     ...["2.5.3 Label in Name"].map(
                       (item) =>
@@ -3354,8 +3354,7 @@ const doc = new Document({
               font: "Arial",
               color: "0000FF",
               underline: {},
-              hyperlink:
-                "https://www.access-board.gov/ict/#chapter-5-software",
+              hyperlink: "https://www.access-board.gov/ict/#chapter-5-software",
             }),
           ],
           heading: HeadingLevel.HEADING_3,
@@ -3395,8 +3394,7 @@ const doc = new Document({
               font: "Arial",
               color: "0000FF",
               underline: {},
-              hyperlink:
-                "https://www.access-board.gov/ict/#chapter-5-software",
+              hyperlink: "https://www.access-board.gov/ict/#chapter-5-software",
             }),
           ],
           heading: HeadingLevel.HEADING_3,
@@ -3563,7 +3561,8 @@ const doc = new Document({
                           size: 22,
                           color: "0000FF",
                           underline: {},
-                          hyperlink: "https://www.access-board.gov/ict/#502-interoperability-assistive-technology"
+                          hyperlink:
+                            "https://www.access-board.gov/ict/#502-interoperability-assistive-technology",
                         }),
                       ],
                     }),
@@ -3581,7 +3580,7 @@ const doc = new Document({
                         new TextRun({
                           text: "Heading cell – no response required",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3599,7 +3598,7 @@ const doc = new Document({
                         new TextRun({
                           text: "Heading cell – no response required",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3621,11 +3620,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.2.1 Closed functionality",
-                          bold: true,
-                          italics: true,
+                          text: "502.2.1 User Control of Accessibility Features",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3640,9 +3637,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "See 5.2 through 13",
+                          text: "Not Applicable",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3657,9 +3654,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "See information in 5.2 through 13",
+                          text: "The product is not platform software",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3680,11 +3677,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.2.2 Assistive technology",
-                          bold: true,
-                          italics: true,
+                          text: "502.2.2 No Disruption of Accessibility Features",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3699,9 +3694,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "See 5.1.3 through 5.1.6",
+                          text: "Supports",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3716,9 +3711,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "See information in 5.1.3 through 5.1.6",
+                          text: "The product does not disrupt platform accessibility features.",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3739,11 +3734,11 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.3 Non-visual access",
+                          text: "502.3 Accessibility Services",
                           bold: true,
                           italics: true,
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3751,6 +3746,7 @@ const doc = new Document({
                   margins: {
                     left: 100,
                   },
+                  shading: { fill: "E7E6E6" },
                 }),
                 new TableCell({
                   width: { size: 30, type: WidthType.PERCENTAGE },
@@ -3760,7 +3756,7 @@ const doc = new Document({
                         new TextRun({
                           text: "Heading cell – no response required",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3768,6 +3764,7 @@ const doc = new Document({
                   margins: {
                     left: 100,
                   },
+                  shading: { fill: "E7E6E6" },
                 }),
                 new TableCell({
                   width: { size: 30, type: WidthType.PERCENTAGE },
@@ -3777,7 +3774,7 @@ const doc = new Document({
                         new TextRun({
                           text: "Heading cell – no response required",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3785,6 +3782,7 @@ const doc = new Document({
                   margins: {
                     left: 100,
                   },
+                  shading: { fill: "E7E6E6" },
                 }),
               ],
             }),
@@ -3798,11 +3796,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.3.1 Audio output of visual information",
-                          bold: true,
-                          italics: true,
+                          text: "502.3.1 Object Information",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3817,9 +3813,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "Not Applicable",
+                          text: "Web: Partially Supports",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3834,71 +3830,32 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "The website does not have closed functionality and allows the use of an outside or add-on screen reader to provide audio output of visual information.",
+                          text: "Web: The role, state(s), properties, boundary, name, and description of most objects can be programmatically determined, so those attributes can be perceived and conveyed by assistive technology. Exceptions are noted in:",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
-                  ],
-                  margins: {
-                    left: 100,
-                  },
-                }),
-              ],
-            }),
-
-            // Sixth Data Row
-            new TableRow({
-              children: [
-                new TableCell({
-                  width: { size: 40, type: WidthType.PERCENTAGE },
-                  children: [
                     new Paragraph({
-                      children: [
-                        new TextRun({
-                          text: "5.1.3.2 Auditory output delivery including speech",
-                          bold: true,
-                          italics: true,
-                          font: "Arial",
-                          size: 24,
-                        }),
-                      ],
+                      children: [],
+                      spacing: { before: 100 },
                     }),
-                  ],
-                  margins: {
-                    left: 100,
-                  },
-                }),
-                new TableCell({
-                  width: { size: 30, type: WidthType.PERCENTAGE },
-                  children: [
-                    new Paragraph({
-                      children: [
-                        new TextRun({
-                          text: "Not Applicable",
-                          font: "Arial",
-                          size: 24,
-                        }),
-                      ],
-                    }),
-                  ],
-                  margins: {
-                    left: 100,
-                  },
-                }),
-                new TableCell({
-                  width: { size: 30, type: WidthType.PERCENTAGE },
-                  children: [
-                    new Paragraph({
-                      children: [
-                        new TextRun({
-                          text: "The website does not have closed functionality and allows auditory output (including speech) to be conveyed by outside mechanisms (including speakers, handsets, and earbuds).",
-                          font: "Arial",
-                          size: 24,
-                        }),
-                      ],
-                    }),
+                    ...[
+                      "4.1.2.a Name, Role, Value",
+                      "4.1.2.b Custom Controls",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
                   ],
                   margins: {
                     left: 100,
@@ -3916,11 +3873,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.3.3 Auditory output correlation",
-                          bold: true,
-                          italics: true,
+                          text: "502.3.2 Modification of Object Information",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3935,9 +3890,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "Not Applicable",
+                          text: "Web: Partially Supports",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3952,12 +3907,32 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "The website does not have closed functionality, so audio information is conveyed using outside or add-on software and/or hardware.",
+                          text: "Web: For most objects that allow the user to set their respective properties and/or state, the act of setting a property or state is available programmatically, so that it can be perceived and performed using assistive technology. Exceptions are noted in:",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
+                    new Paragraph({
+                      children: [],
+                      spacing: { before: 100 },
+                    }),
+                    ...[
+                      "4.1.2.a Name, Role, Value",
+                      "4.1.2.b Custom Controls",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
                   ],
                   margins: {
                     left: 100,
@@ -3967,7 +3942,7 @@ const doc = new Document({
             }),
 
             // Eighth Data Row
-            new TableRow({
+              new TableRow({
               children: [
                 new TableCell({
                   width: { size: 40, type: WidthType.PERCENTAGE },
@@ -3975,11 +3950,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.3.4 Speech output user control",
-                          bold: true,
-                          italics: true,
+                          text: "502.3.3 Rows, Column, and Headers",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -3994,9 +3967,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "Not Applicable",
+                          text: "Web: Supports",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4011,9 +3984,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "The website does not have closed functionality and allows auditory output (including speech) to be conveyed by outside software (e.g., screen readers) and outside mechanisms (including speakers, handsets, and earbuds).",
+                          text: "Web: When a data table is present, all information in the data cells and the row and/or column headers associated with each data cell are available programmatically, so they can be perceived and conveyed by assistive technology.",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4025,7 +3998,7 @@ const doc = new Document({
               ],
             }),
 
-            // Nineth Data Row
+            // Ninth Data Row
             new TableRow({
               children: [
                 new TableCell({
@@ -4034,11 +4007,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.3.5 Speech output automatic interruption",
-                          bold: true,
-                          italics: true,
+                          text: "502.3.4 Values",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4053,9 +4024,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "Not Applicable",
+                          text: "Web: Partially Supports",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4070,12 +4041,32 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "The website does not have closed functionality and allows auditory output (including speech) to be conveyed by outside software (e.g., screen readers) outside mechanisms (including speakers, handsets, and earbuds).",
+                          text: "Web: For most objects that have a current value or have a set or range of values associated with the object, the value(s) is available programmatically, so it can be perceived and conveyed by assistive technology. Exceptions include:",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
+                    new Paragraph({
+                      children: [],
+                      spacing: { before: 100 },
+                    }),
+                    ...[
+                      "4.1.2.a Name, Role, Value",
+                      "4.1.2.b Custom Controls",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
                   ],
                   margins: {
                     left: 100,
@@ -4093,11 +4084,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.3.6 Speech output for non-text content",
-                          bold: true,
-                          italics: true,
+                          text: "502.3.5 Modification of Values",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4112,9 +4101,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "Not Applicable",
+                          text: "Web: Partially Supports",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4129,12 +4118,32 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "The website does not have closed functionality and allows auditory output (including the announcement of text alternatives for images) to be conveyed by outside software (e.g., screen readers) and outside mechanisms (including speakers, handsets, and earbuds).",
+                          text: "Web: For most objects that allow the user to set or modify its value, the act of setting a value is available programmatically, so that it can be perceived and performed using assistive technology. Exceptions include:",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
+                    new Paragraph({
+                      children: [],
+                      spacing: { before: 100 },
+                    }),
+                    ...[
+                      "4.1.2.a Name, Role, Value",
+                      "4.1.2.b Custom Controls",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
                   ],
                   margins: {
                     left: 100,
@@ -4152,11 +4161,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.3.7 Speech output for video information",
-                          bold: true,
-                          italics: true,
+                          text: "502.3.6 Label Relationships",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4171,9 +4178,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "Not Applicable",
+                          text: "Web: Partially Supports",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4188,12 +4195,33 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "The website does not have closed functionality, and pre-recorded video content is not needed to enable the use of closed functions. Also, the product allows auditory output (including audio description of visual information in a video) to be conveyed by outside software (e.g., screen readers) and outside mechanisms (including speakers, handsets, and earbuds).",
+                          text: "Web: For most elements that act as a label for another element and elements that are labeled by another element, the labeling relationship is programmatically determinable, so it can be perceived and conveyed by assistive technology. Exceptions are noted in:",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
+                    new Paragraph({
+                      children: [],
+                      spacing: { before: 100 },
+                    }),
+                    ...[
+                      "1.3.1.d Group Related Form Elements",
+                      "4.1.2.a Name, Role, Value",
+                      "4.1.2.b Custom Controls",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
                   ],
                   margins: {
                     left: 100,
@@ -4211,11 +4239,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.3.8 Masked entry",
-                          bold: true,
-                          italics: true,
+                          text: "502.3.7 Hierarchical Relationships",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4230,9 +4256,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "Not Applicable",
+                          text: "Web: Supports",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4247,12 +4273,31 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "The website does not have closed functionality, so any auditory output of masked characters is controlled and conveyed by outside software (e.g., screen readers) and outside mechanisms (including speakers, handsets, and earbuds).",
+                          text: "Web: When a page contains elements that have a parent-child relationship, those relationships are programmatically determinable, so they can be perceived by assistive technology.",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
+                    new Paragraph({
+                      children: [],
+                      spacing: { before: 100 },
+                    }),
+                    ...[
+                      "1.3.1.e Headings",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
                   ],
                   margins: {
                     left: 100,
@@ -4270,11 +4315,1002 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "5.1.3.9 Private access to personal data",
+                          text: "502.3.8 Texts",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product allows assistive technology to programmatically determine text objects, text attributes and the boundary of text.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Fourteenth Data Row
+             new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "502.3.9 Modification of Text",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product allows assistive technology to modify the text.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Fifteenth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "502.3.10 List of Actions",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Partially Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Most controls in the product expose programmatic role information and actions which can be taken on objects to assistive technology. Exceptions are noted in:",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    new Paragraph({
+                      children: [],
+                      spacing: { before: 100 },
+                    }),
+                    ...[
+                      "4.1.2.a Name, Role, Value",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Sixteenth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "502.3.11 Action on Objects",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Partially Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: For most of the elements on which one or more actions may be performed, all of those actions are available programmatically, so that each action can be performed using assistive technology. Exceptions include:",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    new Paragraph({
+                      children: [],
+                      spacing: { before: 100 },
+                    }),
+                    ...[
+                      "2.1.1.a Keyboard Navigation",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Seventeenth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "502.3.12 Focus Cursor",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product exposes focus location, text insertion point, and object selection state for most user interface components.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Eighteenth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "502.3.12 Modification of Focus Cursor",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "When a user can focus or change selection state of a control in the product via keyboard, then the focus or selection state can also be changed programmatically.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            //Nineteenth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "502.3.13 Event Notification",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Partially Supports",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: In most cases, status messages relevant to user interactions are available to, and presented by, assistive technology. Exceptions are noted in:",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                    new Paragraph({
+                      children: [],
+                      spacing: { before: 100 },
+                    }),
+                    ...[
+                      "4.1.3.a Status Messages",
+                    ].map(
+                      (item) =>
+                        new Paragraph({
+                          bullet: { level: 0 },
+                          children: [
+                            new TextRun({
+                              text: item,
+                              font: "Arial",
+                              size: 22,
+                            }),
+                          ],
+                        })
+                    ),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Twentieth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "502.4 Platform Accessibility Features",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Not Applicable",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product is not platform software.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Twenty-first Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "503 Applications",
                           bold: true,
                           italics: true,
                           font: "Arial",
-                          size: 24,
+                          size: 22,
+                          color: "0000FF",
+                          underline: {},
+                          hyperlink:
+                            "https://www.access-board.gov/ict/#503-applications",
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Heading cell – no response required",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Heading cell – no response required",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+              ],
+            }),
+ 
+            // Twenty-second Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "503.2 User Preferences",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Not Applicable",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The application does not support user preferences from available platform settings for color, contrast, font type, and font size.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Twenty-third Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "503.3 Alternative User Interfaces",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Not Applicable",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product does not provide an alternative user interface that functions as assistive technology.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Twenty-fourth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "503.4 User Controls for Captions and Audio Description",
+                          bold: true,
+                          italics: true,
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Heading cell – no response required",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Heading cell – no response required",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+              ],
+            }),
+
+            // Twenty-fifth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "503.4.1 Caption Controls",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Not Applicable",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product does not contain video with synchronized audio that requires captions, and it provides user controls for captions.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Twenty-sixth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "503.4.2 Audio Description Controls",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Web: Not Applicable",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product does not contain prerecorded video content that would require audio description.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Twenty-seventh Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "504 Authoring Tools",
+                          bold: true,
+                          italics: true,
+                          font: "Arial",
+                          size: 22,
+                          color: "0000FF",
+                          underline: {},
+                          hyperlink:
+                            "https://www.access-board.gov/ict/#504-authoring-tools",
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Heading cell – no response required",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Heading cell – no response required",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+              ],
+            }),
+
+            // Twenty-eighth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "See WCAG 2.1 section",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "See information in WCAG 2.1 section",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                  shading: { fill: "E7E6E6" },
+                }),
+              ],
+            }),
+            
+            // Twenty-ninth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "504.2.1 Preservation of Information Provided for Accessibility in Format Conversion",
+                          font: "Arial",
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4291,7 +5327,7 @@ const doc = new Document({
                         new TextRun({
                           text: "Not Applicable",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4306,9 +5342,9 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "The website does not have closed functionality that would provide private access to personal data.",
+                          text: "The product does not convert information.",
                           font: "Arial",
-                          size: 24,
+                          size: 22,
                         }),
                       ],
                     }),
@@ -4319,6 +5355,178 @@ const doc = new Document({
                 }),
               ],
             }),
+
+            // Thirtieth Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "504.2.2 PDF Export",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Not Applicable",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product is not an Authoring Tool.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Thirty-first Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "504.3 Prompts",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Not Applicable",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product is not an Authoring Tool.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
+            // Thirty-second Data Row
+            new TableRow({
+              children: [
+                new TableCell({
+                  width: { size: 40, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "504.4 Templates",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "Not Applicable",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+                new TableCell({
+                  width: { size: 30, type: WidthType.PERCENTAGE },
+                  children: [
+                    new Paragraph({
+                      children: [
+                        new TextRun({
+                          text: "The product is not an Authoring Tool.",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                      ],
+                    }),
+                  ],
+                  margins: {
+                    left: 100,
+                  },
+                }),
+              ],
+            }),
+
           ],
         }),
       ],
