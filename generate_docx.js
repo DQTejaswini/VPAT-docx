@@ -18,6 +18,8 @@ const {
   WidthType,
   Bullet,
   BulletType,
+  Bookmark,
+  InternalHyperlink
 } = require("docx");
 const fs = require("fs");
 const path = require("path");
@@ -2190,12 +2192,17 @@ const doc = new Document({
         }),
         new Paragraph({
           children: [
-            new TextRun({
-              text: "Table 1: Success Criteria, Level A",
-              bold: true,
-              size: 32,
-              font: "Arial",
-              color: "auto",
+            new Bookmark({
+              id: "table-1-link",
+              children: [
+                new TextRun({
+                  text: "Table 1: Success Criteria, Level A",
+                  bold: true,
+                  size: 32,
+                  font: "Arial",
+                  color: "auto",
+                }),
+              ]
             }),
           ],
           heading: HeadingLevel.HEADING_3,
@@ -5267,7 +5274,24 @@ const doc = new Document({
                     new Paragraph({
                       children: [
                         new TextRun({
-                          text: "See WCAG 2.1 section",
+                          text: "See ",
+                          font: "Arial",
+                          size: 22,
+                        }),
+                        new InternalHyperlink({
+                          anchor: "table-1-link",
+                          children: [
+                            new TextRun({
+                              text: "WCAG 2.1",
+                              font: "Arial",
+                              size: 22,
+                              color: "0000FF",
+                              underline: {},
+                            }),
+                          ],
+                        }),
+                        new TextRun({
+                          text: " section",
                           font: "Arial",
                           size: 22,
                         }),
